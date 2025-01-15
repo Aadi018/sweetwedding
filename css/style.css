@@ -801,7 +801,10 @@ button:focus{
 .gallery-box{
 	padding: 70px 0px;
 }
-
+.gallery-box img{
+	height: 18em;
+	width: 22em;
+}
 .gallery-box ul{}
 .gallery-box ul li{
 	position: relative;
