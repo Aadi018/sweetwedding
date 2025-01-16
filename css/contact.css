@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    /* font-family: Arial, sans-serif; */
+    /* background-color: rgb(255, 12, 202); */
+}
+
+.contact-container {
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    padding-right: 40px;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: rgb(182, 175, 175);
+}
+
+.info-section {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.info-section h1, .form-section h1 {
+    font-family: 'Cursive', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.info-section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.info-item {
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.icon {
+    font-size: 20px;
+    margin-right: 30px;
+    vertical-align: middle;
+    align-content: center;
+}
+
+.social-icons a img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.form-section {
+    width: 30%;
+    /* flex: 1; */
+    background-color: #ffe6f2;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    /* height: 100%; */
+}
+
+form input, form textarea {
+    
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+}
+
+form button {
+    width: 90%;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid #ff66a3;
+    color: #ff66a3;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #ff66a3;
+    color: white;
+}
